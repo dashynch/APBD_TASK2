@@ -6,11 +6,11 @@ To run the program you need to clone the repository and open the project in Ride
 To run the program you shoul press the Run button.
 
 project consists of: 
-- 'Models/' - all classes like User, Rental, Equipment
-- 'Services/' - RentalService with all  logic
-- 'Enum/' - Status types for users and equipment
-- 'Interfaces/' - IRentalService interface 
-- 'Database/' - Singleton class 
+- 'Models' - all classes like User, Rental, Equipment
+- 'Services' - RentalService with all  logic
+- 'Enum' - Status types for users and equipment
+- 'Interfaces' - IRentalService interface 
+- 'Database' - Singleton class 
 
 I decided to keep all logic in RentalService and not spread it across multiple classes.
 Equipment class uses inheritance because Projector, Laptop, Camera all of them share common 
